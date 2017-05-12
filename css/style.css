@@ -23,7 +23,8 @@ body{
    font-weight: 100;
  }
 
-/* Grid */
+/* GRID */
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -38,7 +39,7 @@ body{
     display: table;
 }
 
-.container:afer {
+.container:after {
     clear: both;
 }
 
@@ -50,12 +51,22 @@ body{
     margin:0 2% 20px;
 }
 
+/* MEDIA QUERIES */
+/* 'min-width' * .96 = '.Container' Width (to account for 2% padding on Left & Right Sides) */
+
+@media (min-width: 320px) {
+    .container {
+      width: 307px
+  }
+}
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
    }
  }
- @media (min-width: 992px) {
+
+@media (min-width: 992px) {
    .container {
      width: 970px;
    }
@@ -79,11 +90,11 @@ body{
 
 header {
    color:#FFFFFF;
-   background: #34495E;
-   background-image: linear-gradient(-190deg, #5F81A3 0%, #34495E 94%);
+   background: url(../images/Hero-Top.png);
+   height:500px;
  }
  header nav {
-   padding:3em 0;
+   padding:1em;
  }
  header nav ul {
    display:inline;
@@ -128,10 +139,7 @@ header {
    font-weight: lightest;
    margin:10px 0 40px;
  }
- header .hero img {
-   display: block;
-   margin:3em auto 0;
- }
+
 
 /* BUTTONS */
 .btn {
