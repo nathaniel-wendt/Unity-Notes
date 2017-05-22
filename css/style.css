@@ -91,7 +91,10 @@ body{
 header {
    color:#FFFFFF;
    background: url(../images/Hero-Top.png);
-   height:500px;
+   min-height:500px;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
  }
  header nav {
    padding:1em;
