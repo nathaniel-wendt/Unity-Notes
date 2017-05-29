@@ -402,24 +402,25 @@ footer {
    background-color: transparent;
  }
  footer .logo{
-   padding: 2.35em 0;
+   padding: 2em 0;
    margin: 0 auto;
    display: block;
  }
- @media (min-width: 992px){
-   footer{
-     background-color: #3498DB;
-     background-image: linear-gradient(to left, #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
-     height: 100px;
+ 
+@media (min-width: 992px){
+footer {
+    background-color: #fff;
+    background-image: linear-gradient(to left, #fff 0%, #fff 33.33337%, #3A5668 33.33337%, #3A5668 100%);
+    height: 90px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: #3498DB;
+     background-color: #fff;
    }
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+     padding: .7em 0 1em 1em;
    }
  }
