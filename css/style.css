@@ -441,7 +441,7 @@ footer {
    display:block;
  }
  .left-nav .site-logo {
-   padding:20px 0;
+   padding:10px 0;
    background:#34495E;
    display:block;
    text-align: center;
@@ -494,19 +494,22 @@ footer {
  }
  .left-nav .settings p {
    display: inline-block;
-   vertical-align: top;
-   padding-top: 8px;
+   vertical-align:top;
+   padding-top: 10px;
    font-weight: 400;
    margin:0 0 0 10px;
  }
  .left-nav .settings a {
+   display: inline-block;
+   vertical-align:top;
    color:#FFFFFF;
    text-decoration: none;
-   text-align: right;
    float: right;
    margin-right:10px;
-   margin-top:8px;
  }
+ .left-nav .settings i {
+    padding-right: 10px;
+}
 
  /* CONTENT */
  .content {
